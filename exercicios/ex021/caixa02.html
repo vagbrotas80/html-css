@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        header {
+            background-color: #dad8d8;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        nav {
+            background-color: rgb(187, 172, 172);
+            padding: 3px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.481);
+        }
+        p {
+            box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.497);
+        }
+        nav > a {
+            text-decoration: nome;
+            color: white;
+            font-weight: bold;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(172, 203, 231);
+
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            width: 50px;
+            height: 50px;
+            background-color: rgb(253, 248, 248);
+            margin: 10px;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>notícias copa</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus possimus tempore ex ipsam! Autem, esse molestiae ullam quibusdam qui magnam earum expedita cum recusandae debitis dicta placeat aspernatur deserunt!</p>
+                <aside>
+                    <p>Artigo de Brotas</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por vagbrotas</p>
+
+    </footer>
+    <div id='bola'></div>
+</body>
+</html>

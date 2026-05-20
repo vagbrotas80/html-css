@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(128, 0, 105);
+        }
+        a::after {
+            content: " (clique aqui)";
+            font-size: 0.8em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/vagli">Repositório no GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/vagli/">Perfil no LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/vagli/">Perfil no Instagram</a></li>
+    </ul>
+</body>
+</html>
